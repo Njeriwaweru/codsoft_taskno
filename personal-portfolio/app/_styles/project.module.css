@@ -1,0 +1,73 @@
+.project{
+    margin-top: 40px;
+}
+
+.project h1{
+    margin-left: 25px;
+    font-size: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.cards h2{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.cards p{
+    text-align: center;
+    font-size: 13.5px;
+    margin-top: 6px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+    border: 2px solid ;
+    width: 450px;
+    height: 200px;
+}
+
+.teenz,
+.tech,
+.pharmacy{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.teenz span{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.tech span{
+    border-radius: 50%;
+    background-color: purple;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.pharmacy span{
+    border-radius: 50%;
+    background-color: rgb(0, 62, 128);
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-top: 4px;
+}

@@ -1,0 +1,44 @@
+.skills{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.content2{
+    margin-top: 40px;
+}
+
+.content2 h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.icons p{
+    font-size: 10px;
+}
+
+.html,
+.css,
+.javascript,
+.react,
+.git,
+.sql{
+    width: 50px;
+    height: 50px;
+}
+
+.list{
+    margin-top: 25px;
+}
+
+.list ul li{
+    padding: 7px;
+    font-size: 20px;
+}
