@@ -1,0 +1,27 @@
+.taskForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .taskForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .taskForm button {
+    padding: 10px;
+    border: none;
+    background: #38c172;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .taskForm button:hover {
+    background: #2d995b;
+  }

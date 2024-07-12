@@ -1,0 +1,57 @@
+.task {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d63ac674;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+  
+.task.completed {
+    background: #1b90d4d2;
+    text-decoration: line-through;
+}
+  
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+.task button {
+    background: #e3342f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.task button:hover {
+    background: #cc1f1a;
+}
+
+.thumbsUp {
+    position: absolute;
+    right: -30px;
+    font-size: 20px;
+    animation: fly 2s forwards;
+}
+
+.confetti {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+@keyframes fly {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
