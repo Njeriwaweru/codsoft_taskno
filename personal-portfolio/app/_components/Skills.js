@@ -8,7 +8,7 @@ import styles from '../_styles/skills.module.css'
 
 function Skills() {
   return (
-    <div className={styles.skills}>
+    <div id='skills' className={styles.skills}>
         <div className={styles.content1}>
             <Image src={'/skills.png'} width={600} height={500} alt=''/>
         </div>

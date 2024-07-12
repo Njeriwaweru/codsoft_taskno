@@ -10,9 +10,9 @@ function navbar() {
         </div>
 
         <div className={styles.links}>
-            <Link href={''}>About Me</Link>
-            <Link href={''}>Projects</Link>
-            <Link href={''}>Contact Me</Link>
+            <Link href={'#skills'}>About Me</Link>
+            <Link href={'#projects'}>Projects</Link>
+            <Link href={'#footer'}>Contact Me</Link>
         </div>
     </div>
   )

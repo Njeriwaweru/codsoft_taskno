@@ -1,0 +1,68 @@
+.footer{
+    margin-top: 55px;
+}
+
+.heading{
+    margin-left: 30px;
+}
+
+.heading p{
+    margin-top: 5px;
+}
+
+.icons{
+    display: flex;
+    margin-left: 25px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.linkedinIcon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(0, 119, 181);
+    border-radius: 50%;
+}
+
+.linkedinIcon:hover{
+    background-color: rgba(0, 119, 181, 0.5);
+}
+
+.githubIcon{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(39, 40, 40);
+    border-radius: 50%;
+}
+
+.githubIcon:hover{
+    background-color: rgba(39, 40, 40, 0.5);
+}
+
+.mailIcon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(183, 33, 41);
+    border-radius: 50%;
+}
+
+.mailIcon:hover{
+    background-color: rgba(183, 33, 41, 0.5);
+}
+
+.content1{
+    display: flex;
+    gap: 500px;
+}
+
+.image{
+    margin-top: 15px;
+}
+
+.end{
+    text-align: center;
+    margin-top: 15px;
+}

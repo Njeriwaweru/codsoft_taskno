@@ -42,8 +42,8 @@ function Hero() {
             </div>
 
             <div className={styles.buttons}>
-                <CustomButton variant='contained' size='small'>Contact Me</CustomButton>
-                <CustomButton variant='contained' size='small'>See My Resume</CustomButton>
+                <Link href={'#footer'}><CustomButton variant='contained' size='small'>Contact Me</CustomButton></Link>
+                <Link href={'https://firebasestorage.googleapis.com/v0/b/portfolio-9e098.appspot.com/o/PRAISE%20WAWERU.pdf?alt=media&token=c6908b7b-b085-4fc3-9aef-6eb1b57e12df'} target='_blank'><CustomButton variant='contained' size='small'>See My Resume</CustomButton></Link>
             </div>
         </div>
 

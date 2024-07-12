@@ -15,6 +15,18 @@
     margin-left: 40px;
 }
 
+.heading{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon{
+    margin-top: 15px;
+    width: 30px;
+    height: 20px;
+}
+
 .cards h2{
     text-align: center;
     margin-top: 8px;
@@ -31,15 +43,47 @@
 .card3,
 .card4,
 .card5{
-    border: 2px solid ;
     width: 450px;
     height: 200px;
+}
+
+.card1:hover{
+    background-color: #00ffff50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 10px rgba(244, 242, 242, 0.211);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    
+}
+.card2:hover{
+    background-color: #00ffff50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 10px rgba(244, 242, 242, 0.211);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.card3:hover{
+    background-color: #00ffff50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 10px rgba(244, 242, 242, 0.211);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.card4:hover{
+    background-color: #00ffff50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 10px rgba(244, 242, 242, 0.211);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.card5:hover{
+    background-color: #00ffff50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 10px rgba(244, 242, 242, 0.211);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .teenz,
 .tech,
 .pharmacy{
     display: flex;
+    gap: 10px;
     align-items: center;
     margin-top: 50px;
     margin-left: 40px;
@@ -70,4 +114,18 @@
     height: 10px;
     margin-right: 8px;
     margin-top: 4px;
+}
+
+.about{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
