@@ -40,6 +40,9 @@ export default function Home() {
   return (
     <div className={styles.app}>
       <h1>Task Tracker</h1>
+      <p>
+        Ready to conquer your to-do list and stay super organized? 💪📋 Add new tasks, update them, and mark them as complete with just a few clicks! 🖱️✨
+      </p>
       <TaskForm addTask={addTask} editingTask={editingTask} updateTask={updateTask} />
       <TaskList tasks={tasks} onToggle={toggleTask} onDelete={deleteTask} onEdit={editTask} />
     </div>

@@ -1,0 +1,7 @@
+.productCatalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    z-index: 2;
+}

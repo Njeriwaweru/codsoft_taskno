@@ -7,6 +7,11 @@
 }
 
 .app h1 {
-  color: #333;
+  color: #edeaea;
   margin-bottom: 5px;
+}
+
+.app p{
+  margin: 10px;
+  color: #8e8d8d;
 }

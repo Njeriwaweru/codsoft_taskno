@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .scaleContainer {
+    position: relative;
+    animation: balance 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes balance {
+    0% {
+      transform: rotate(-3deg);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+  }
+  
+  .animatedImage {
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+  }
+  
+.content p {
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+    max-width: 600px;
+  }
+  

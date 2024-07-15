@@ -1,0 +1,31 @@
+.productCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+    width: 200px;
+    transition: transform 0.3s ease-in-out,  background-color 0.3s ease-in-out;;
+}
+  
+.productImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productCard:hover{
+    background-color: rgba(23, 204, 245, 0.19);
+}
+
+.productCard:hover .productImage {
+    transform: scale(1.1);
+}
+  
+.productCard h3 {
+    margin: 10px 0;
+}
+  
+.productCard p {
+    margin: 10px 0;
+}
