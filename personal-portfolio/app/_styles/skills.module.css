@@ -42,3 +42,16 @@
     padding: 7px;
     font-size: 20px;
 }
+
+@keyframes balance {
+    0% {
+      transform: rotate(-3deg);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+}
+
+.content1{
+    animation: balance 2s ease-in-out infinite alternate;
+}

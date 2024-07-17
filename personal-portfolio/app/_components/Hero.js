@@ -48,7 +48,7 @@ function Hero() {
         </div>
 
         <div className={styles.content2}>
-            <Image src={'/banner1.png'} width={800} height={500} alt='computer girl'/>
+            <Image className={styles.bannerImage} src={'/banner1.png'} width={800} height={500} alt='computer girl'/>
         </div>
 
         

@@ -1,6 +1,5 @@
 .hero {
     display: flex;
-    /* justify-content: center; */
     gap: 50px;
     padding-top: 25px;
 }
@@ -32,6 +31,7 @@
     position: relative;
     width: 70px;
     height: 70px;
+    animation: bounce 2s infinite;
 }
 
 .icons{
@@ -84,3 +84,35 @@
     margin-top: 20px;
 }
 
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(15%);
+        opacity: 1;
+    }
+    70% {
+        transform: translateX(-5%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.bannerImage{
+    animation: slideIn 2.5s ease-out;
+}
